@@ -1,9 +1,10 @@
 *
 {
-	background: blue; 
+	background: #FF8533; 
 }
 
 p
 {
-	color: white; 
+	font-weight:bold;
+	color: black; 
 }
