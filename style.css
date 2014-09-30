@@ -1,10 +1,48 @@
-*
+.block1
 {
-	background: #FF8533; 
-}
+position:absolute;
+	
+	
+    opacity: 0.75;
+	height: 50px;
+	width:100px;
+	text-align:center;
 
-p
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	top:20px;
+	left:100px;
+	border-width:5px;	
+    border-style:ridge;
+	
+	}
+.block2
 {
-	font-weight:bold;
-	color: black; 
+position:absolute;
+	font: 14px;
+	
+    opacity: 0.75;
+	height: 50px;
+	width:100px;
+	text-align:center;
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	top:20px;
+	left:300px;
+	border-width:5px;	
+    border-style:ridge;
+	}
+.block{
+    font:20px;
+	color:#A00000;
+    text-shadow: 0 0 3px #FF0000;
+
+}
+body{
+	background:url(wallpaper-blue-sky.jpg) no-repeat center center fixed;
+
 }
