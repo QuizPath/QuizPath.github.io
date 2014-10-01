@@ -1,31 +1,96 @@
-<!DOCTYPE HTML PUBLIC"-//IETF//DTD HTML//EN"/>
-<html>
+.block1
+{
+position:absolute;
+	font-size: 30px;
+	background-color:#FFFF00;
+    opacity: 0.75;
+	height: 80px;
+	width:150px;
+	text-align:center;
+    
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+	top:60px;
+	left:100px;
+	border-width:5px;	
+    border-style:ridge;
+	display:inline-block;
+	}
+	
+.block2
+{
+position:absolute;
+	font-size: 30px;
+	background-color: #FFFF00;
+    opacity: 0.75;
+	height: 80px;
+	width:150px;
+	text-align:center;
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+	top:60px;
+	left:300px;
+	border-width:5px;	
+    border-style:ridge;
+	}
+.block3
+{
+position:absolute;
+	font-size: 30px;
+	
+	
+	top:100px;
+	left:700px;
+	
+	}
+.block4
+{
+position:absolute;
+	font-size: 30px;
+	background-color: #FFFF00;
+    opacity: 0.75;
+	height: 80px;
+	width:150px;
+	text-align:center;
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+	top:60px;
+	left:1000px;
+	border-width:5px;	
+    border-style:ridge;
+	}
+.block5
+{
+position:absolute;
+	font-size: 30px;
+	background-color: #FFFF00;
+    opacity: 0.75;
+	height: 150px;	
+	width: 500px;
+	text-align:center;
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+	top:200px;
+	left:100px;
+	border-width:5px;	
+    border-style:ridge;
+	}
 
-<head>
-<link rel = "stylesheet" type="text/css" href="style.css">
-<title>QuizPath</title>
+.block{
+	font-size: 30px;
+	color:#A00000;
+    text-shadow: 0 0 3px #FF0000;
 
-</head>
+}
+body{
+	background-color: #00FFFF;
 
-<body>
-
-<section>
-<marquee class = "block">Welcome to QuizPath</marquee>
-<hr>
-<a class = "block1" href="http://QuizPath.github.io">Homepage</a>
-<a class = "block2">Quiz</a>
-
-<a class = "block3">Welcome, [Username]</a>
-<a class = "block4">Log Out</a>
-<hr>
-</section>
-
-
-<div>
-<h2 class = "block5">Graph Statistic</h2>
-</div>
-
-
-</body>
-
-</html>
+}
