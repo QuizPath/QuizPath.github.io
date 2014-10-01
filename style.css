@@ -1,43 +1,43 @@
 .block1
 {
 position:absolute;
-	font: 14px;
+	font-size: 30px;
 	background-color:#FFFF00;
     opacity: 0.75;
-	height: 50px;
-	width:100px;
+	height: 80px;
+	width:150px;
 	text-align:center;
-
+    
 	padding-top: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
-	top:30px;
+	top:60px;
 	left:100px;
 	border-width:5px;	
     border-style:ridge;
-	
+	display:inline-block;
 	}
 .block2
 {
 position:absolute;
-	font: 14px;
+	font-size: 30px;
 	background-color: #FFFF00;
     opacity: 0.75;
-	height: 50px;
-	width:100px;
+	height: 80px;
+	width:150px;
 	text-align:center;
 	padding-top: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
-	top:30px;
+	top:60px;
 	left:300px;
 	border-width:5px;	
     border-style:ridge;
 	}
 .block{
-    font:20px;
+	font-size: 30px;
 	color:#A00000;
     text-shadow: 0 0 3px #FF0000;
 
