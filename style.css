@@ -15,8 +15,8 @@ text-shadow: 2px 2px 8px #FF0000;
 	
     font-family: Geneva, Tahoma, Verdana, sans-serif;
 	text-align:center;
-	
-	top:90px;
+	text-shadow: 2px 2px 8px #FFFF00;
+	top:80px;
 	left:1200px;
 }
 .block1
@@ -29,15 +29,15 @@ position:absolute;
 	width:150px;
 	text-align:center;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-	padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 	top:130px;
 	left:100px;
 	border-width:5px;	
     border-style:ridge;
-	display:inline-block;
+	
 	}
 	
 .block2
@@ -49,10 +49,10 @@ position:absolute;
 	height: 40px;
 	width:150px;
 	text-align:center;
-	padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 	top:130px;
 	left:300px;
 	border-width:5px;	
@@ -78,10 +78,10 @@ position:absolute;
 	height: 40px;
 	width:150px;
 	text-align:center;
-	padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 	top:130px;
 	left:1000px;
 	border-width:5px;	
@@ -97,10 +97,10 @@ position:absolute;
 	height: 150px;	
 	width: 500px;
 	text-align:center;
-	padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 	top:260px;
 	left:100px;
 	border-width:5px;	
@@ -116,10 +116,10 @@ position:absolute;
 	height: 80px;	
 	width: 100px;
 	text-align:center;
-	padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 	top:120px;
 	left:1200px;
 	
@@ -132,7 +132,7 @@ position:absolute;
 
 }
 body{
-	background: url(http://upload.wikimedia.org/wikipedia/commons/d/da/Shades_of_blue.jpg)no-repeat center center fixed; ;
+	background: url(Shades_of_blue.jpg)no-repeat center center fixed; 
 	
 
 }
