@@ -17,7 +17,7 @@ text-shadow: 2px 2px 8px #FF0000;
 	text-align:center;
 	text-shadow: 2px 2px 8px #FFFF00;
 	top:80px;
-	left:1200px;
+	left:1100px;
 }
 .block1
 {
@@ -62,11 +62,11 @@ position:absolute;
 .block3
 {
 position:absolute;
-	font-size: 24px;
+	font-size: 18x;
 	
 	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-	top:130px;
-	left:750px;
+	top:100px;
+	left:900px;
 	
 	}
 .block4
@@ -83,12 +83,50 @@ position:absolute;
     padding-bottom: 0px;
     padding-left: 0px;
 	top:130px;
-	left:1000px;
+	left:900px;
 	border-width:5px;	
     border-style:ridge;
 	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 	}
 .block5
+{
+position:absolute;
+	font-size: 30px;
+	background-color: #FFFF00;
+    opacity: 0.75;
+	height: 40px;
+	width:150px;
+	text-align:center;
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+	top:130px;
+	left:500px;
+	border-width:5px;	
+    border-style:ridge;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	}
+.block6
+{
+position:absolute;
+	font-size: 30px;
+	background-color: #FFFF00;
+    opacity: 0.75;
+	height: 40px;
+	width:150px;
+	text-align:center;
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+	top:130px;
+	left:700px;
+	border-width:5px;	
+    border-style:ridge;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	}
+.block7
 {
 position:absolute;
 	font-size: 30px;
@@ -120,8 +158,8 @@ position:absolute;
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
-	top:130px;
-	left:1200px;
+	top:140px;
+	left:1100px;
 	
 }
 
@@ -133,6 +171,5 @@ position:absolute;
 }
 body{
 	background: url(http://upload.wikimedia.org/wikipedia/commons/d/da/Shades_of_blue.jpg)no-repeat center center fixed; 
-	
+	}
 
-}
