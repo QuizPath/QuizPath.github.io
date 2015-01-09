@@ -1,0 +1,39 @@
+body {
+	background-color:#ffffff; 
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lineUnderLogo {
+	box-shadow: 0 0 10px 3px #D0DCDC; 
+}
+
+
+.message {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
+	text-align:center;
+	text-shadow: 2px 2px 8px #C0B0B0;
+}
+
+.form {
+	display:block;
+	text-align:center;
+	text-shadow: 2px 2px 8px #908080;
+	box-shadow: 2px 2px 8px #908080;
+	margin-right:150px;
+	margin-left:150px;
+}
+
+.backButton {
+	font-size: 12px;
+}

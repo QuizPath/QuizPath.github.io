@@ -1,0 +1,36 @@
+body {
+	background-color: #ffffff;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.line {
+	box-shadow: 0 0 10px 3px #D0DCDC; 
+	margin-bottom:10px;
+}
+
+.message {
+	display: block;
+	margin-left: 50px;
+	margin-right: 50px;
+	color:#404060;
+	font-size: 16px;
+	font-weight:bold;
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
+	text-align:center;
+	text-shadow: 2px 2px 8px #C0B0B0;
+}
+
+.backButton {
+	font-size:14px;
+}
+
+.german_header {
+	font-size:20px;
+}

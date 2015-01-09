@@ -1,0 +1,82 @@
+body {
+	background-color: #FFFFFF;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lineUnderLogo {
+	box-shadow: 0 0 10px 3px #D0DCDC; 
+}
+
+.loginButton {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	left: 110px;
+	width: 70px;
+}
+
+.newAccountButton {
+	display: block;
+	position: relative;
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 95px;
+	width:100px;
+	bottom:20px;
+}
+
+.message {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
+	text-align:center;
+	text-shadow: 2px 2px 8px #C0B0B0;
+}
+
+.username { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: white; 
+	border: 1px solid #a0a0e0; 
+	border-radius: 3px; 
+	box-shadow: 0 0 15px 2px #D0DCDC; 
+	font-size: 16px;
+	color: #666; 
+	outline: none; 
+	height:35px; 
+	width: 300px; 
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+} 
+
+.password { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	background: white; 
+	border: 1px solid #a0a0e0; 
+	border-radius: 3px; 
+	box-shadow: 0 0 15px 2px #D0DCDC; 
+	font-size: 16px;
+	color: #666; 
+	outline: none; 
+	height:35px; 
+	width: 300px; 
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}

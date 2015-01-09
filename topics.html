@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>QuizPath</title>
+<link rel = "stylesheet" type="text/css" href="topics.css">
+</head>
+
+<body onload=init();>
+
+<br>
+
+<img class="logo" src="logo.png" alt="logo not loaded" style="width:300px;height:74px"> 
+
+<br>
+
+<div class = "lineUnderLogo"><hr /></div>
+
+<br>
+
+<a class="message" id="message"> </a>
+
+<br><br>
+
+<h1 class="cs_header"> Java </h1> <hr/>
+
+<a class="loops" id=1 onclick="go('!');"> Loops </a> <br><br>
+<a class="strings" id=2 > Strings </a> <br><br>
+
+<h1 class="ger_header"> German </h1>  <hr/>	
+
+<a class="Prepositions" id=3 > Prepositions </a> <br><br>
+<a class="Vocabulary" id=4 > Vocabulary </a> <br><br>
+
+<!------------------JavaScript------------------->
+<script type="text/javascript"> 
+
+function init() {
+	document.getElementById(1).onclick = function() { goToQuiz("Loops"); };
+	document.getElementById(2).onclick = function() { goToQuiz("Strings"); };
+	document.getElementById(3).onclick = function() { goToQuiz("Prepositions"); };
+	document.getElementById(4).onclick = function() { goToQuiz("Vocabulary"); };
+};
+
+function goToQuiz(topic) {
+	alert("Quiz on " + topic);
+};
+
+</script>
+<!-----------------End-JavaScript----------------->	
+
+</body>
+
+</html>
